@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
-import { dataLuchador } from '../data-luchador/luchador';
+import { dataLuchador } from '../luchador';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-data-luchador',
+  selector: 'app-devon-larratt',
   standalone: true,
   imports: [NgFor],
-  templateUrl: './data-luchador.component.html',
-  styleUrl: './data-luchador.component.css',
+  templateUrl: './devon.component.html',
+  styleUrl: './devon.component.css'
 
 
 })
-export class DataLuchadorComponent {
-  title = 'public/mattttttt.png'
+export class DevonComponent {
   devonLarratt: dataLuchador[] = [{
     Name: 'DEVON LARRATT',
     Country: 'Canada',

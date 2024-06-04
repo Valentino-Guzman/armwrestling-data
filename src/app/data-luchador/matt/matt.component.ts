@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
-import { dataLuchador } from '../data-luchador/luchador';
+import { dataLuchador } from '../luchador';
 
 @Component({
   selector: 'app-matt',
