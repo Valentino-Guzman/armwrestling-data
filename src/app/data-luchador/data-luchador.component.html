@@ -1,0 +1,22 @@
+<main class="main">
+    <app-header></app-header>
+    <div class="descripcion">
+        <div class="fighter">
+            <article>
+                <img src="https://dwnldzuxs8sjs.cloudfront.net/images/armwrestlers/wQ7GzUijYLfHgtJx.jpg" />
+                <img
+                    src="https://devonlarratt.info/wp-content/uploads/2022/05/Screenshot-2022-05-19-at-20.39.50-copy.png" />
+            </article>
+            <app-devon-larratt [mostrarDatos]="mostrarDatosDevon"
+                (mostrarDatosClick)="MostrarDesdeDevon($event)"></app-devon-larratt>
+            <p class="mensajeLuchador">{{mensajeRecibidoDevon}}</p>
+            <article>
+                <img src="https://dwnldzuxs8sjs.cloudfront.net/images/armwrestlers/WIAQZTBZrLWVBiRW.jpg" />
+                <img
+                    src="https://i.ibb.co/br5p9pk/matt-mask-thumb-thumbnail-2x-1-fotor-bg-remover-2024061061149-fotor-bg-remover-2024061063550.png" />
+            </article>
+            <app-matt [mostrarDatos]="mostrarDatosMatt" (mostrarDatosClick)="MostrarDesdeMatt($event)"></app-matt>
+            <p class="mensajeLuchador">{{mensajeRecibidoMatt}}</p>
+        </div>
+    </div>
+</main>

@@ -3,7 +3,7 @@ export interface dataLuchador {
     Country: string;
     Forearm: string;
     Bicep: string;
-    Age: number;
+    Age: string;
     Height: string;
     Weight: string;
 }

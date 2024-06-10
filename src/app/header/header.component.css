@@ -1,19 +1,71 @@
 .encabezado {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-button,
-input {
-    height: 20px;
 
+input {
+    height: 25px;
+    width: 90%;
+}
+
+h1 {
+    display: flex;
+}
+
+.buscador {
+    display: flex;
+    width: 25%;
+    justify-content: center;
 }
 
 input {
+
     font-family: system-ui;
     border-radius: 5px;
     background-color: #252530;
     border: solid#252530;
     color: #ffff;
     margin: 5px;
+}
+
+.versus {
+    margin: 0px 5px;
+    color: #cc1514;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+
+}
+
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    transform: skew(-10deg);
+}
+
+.titulo {
+    font-size: 50px;
+    color: #cc1514;
+
+
+}
+
+@media (max-width: 768px) {
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .titulo {
+        max-width: 35%;
+        font-size: 25px;
+    }
+
 }

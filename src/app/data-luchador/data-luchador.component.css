@@ -1,0 +1,100 @@
+.descripcion {
+    background-color: rgb(22 22 28 / 30%);
+    font-size: 15px;
+}
+
+.fighter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.stats {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+article {
+    padding: 30px;
+    position: relative;
+    width: 340px;
+    transition: all .3s ease;
+}
+
+article img:first-child {
+
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article:hover img:first-child {
+    filter: blur(3px);
+}
+
+article img:last-child {
+    opacity: 0;
+    position: absolute;
+    border-radius: 4px;
+    object-fit: cover;
+    width: 345px;
+    bottom: 58px;
+    left: 21px;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: all .3s ease;
+    margin: 5px;
+}
+
+article:hover {
+    transform: perspective(250px) rotateX(5deg) translateY(-5%) translateZ(0);
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+article:hover::before {
+    opacity: 1;
+}
+
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to bottom, #252530, #130404);
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.titulo {
+    font-size: 50px;
+    display: flex;
+    color: #cc1514;
+    justify-content: center;
+}
+
+.versus {
+    color: #cc1514;
+}
+
+.mensajeLuchador {
+    color: white;
+    font-size: 18px;
+
+    margin-bottom: 10px;
+    padding-left: 10px;
+}

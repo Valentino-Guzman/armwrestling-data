@@ -12,30 +12,3 @@ body {
     overflow-x: hidden;
 
 }
-
-
-h1 {
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    margin-left: 5px;
-
-}
-
-h1,
-h2 {
-    margin-top: 0;
-    margin-bottom: 2px;
-    transform: skew(-10deg);
-}
-
-
-.titulo {
-    font-size: 50px;
-    display: flex;
-    color: #cc1514;
-    justify-content: center;
-}
-
-.versus {
-    color: #cc1514;
-}

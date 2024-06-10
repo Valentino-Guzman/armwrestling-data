@@ -3,18 +3,15 @@
 }
 
 .tabla {
-    text-align: center;
     font-family: 'coda', Helvetica, Arial, sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
+    text-align: center;
 }
 
 .datos {
-    width: 90%;
     height: auto;
     color: white;
     border-collapse: collapse;
+    background: linear-gradient(to bottom, #00000060, #130404);
 }
 
 .datos th,
@@ -47,4 +44,24 @@ h2 {
     margin-top: 0;
     margin-bottom: 2px;
     transform: skew(-10deg);
+}
+
+.boton {
+    margin: 6px 0;
+}
+
+button {
+
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #323240;
+    background-color: #00000060;
+    transition: .3s;
+    color: white;
+
+}
+
+button:hover {
+    background: linear-gradient(to left, #2d16167e, #130404);
+    cursor: pointer;
 }
