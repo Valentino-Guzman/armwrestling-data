@@ -102,15 +102,13 @@ article:hover img:last-child {
     .mensajeLuchador {
         max-width: 50%;
     }
-    .sobreMi {
-        flex-direction: column;
-    }
     .titulo {
         font-size: 25px;
     }
-    .fighter {
+    .fighter.sobreMi {
         flex-direction: column;
  }
+
 }
 
 

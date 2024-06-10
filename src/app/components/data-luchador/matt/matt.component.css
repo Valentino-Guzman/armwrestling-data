@@ -1,14 +1,9 @@
-.rangoLuchador {
-    margin-bottom: 113px;
-}
-
 .tabla {
     font-family: 'coda', Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
 .datos {
-    height: auto;
     color: white;
     border-collapse: collapse;
     background: linear-gradient(to bottom, #00000060, #130404);
