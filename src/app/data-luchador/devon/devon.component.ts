@@ -18,8 +18,8 @@ export class DevonComponent {
 
 
   mostrarDatosDev() {
-    this.mostrarDatosClick.emit(this.mostrarDatos);
     console.log('mensaje del padre al hijo: ', this.mostrarDatos)
+    this.mostrarDatosClick.emit(this.mostrarDatos);
   }
 
   devonLarratt: dataLuchador[] = [{
