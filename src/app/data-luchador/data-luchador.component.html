@@ -9,13 +9,15 @@
             </article>
             <app-devon-larratt [mostrarDatos]="mostrarDatosDevon"
                 (mostrarDatosClick)="MostrarDesdeDevon($event)"></app-devon-larratt>
-            <p class="mensajeLuchador">{{mensajeRecibidoDevon}}</p>
             <article>
                 <img src="https://dwnldzuxs8sjs.cloudfront.net/images/armwrestlers/WIAQZTBZrLWVBiRW.jpg" />
                 <img
                     src="https://i.ibb.co/br5p9pk/matt-mask-thumb-thumbnail-2x-1-fotor-bg-remover-2024061061149-fotor-bg-remover-2024061063550.png" />
             </article>
             <app-matt [mostrarDatos]="mostrarDatosMatt" (mostrarDatosClick)="MostrarDesdeMatt($event)"></app-matt>
+        </div>
+        <div class="sobreMi">
+            <p class="mensajeLuchador">{{mensajeRecibidoDevon}}</p>
             <p class="mensajeLuchador">{{mensajeRecibidoMatt}}</p>
         </div>
     </div>

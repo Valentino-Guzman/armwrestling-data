@@ -91,10 +91,15 @@ article:hover img:last-child {
     color: #cc1514;
 }
 
+.sobreMi {
+    display: flex;
+    background-color: #120808;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .mensajeLuchador {
     color: white;
-    font-size: 18px;
-
-    margin-bottom: 10px;
-    padding-left: 10px;
+    max-width: 30%;
+    font-family: "coda", Helvetica, Arial, sans-serif;
 }
