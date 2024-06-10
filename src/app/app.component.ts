@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DataLuchadorComponent } from "./data-luchador/data-luchador.component";
+import { DataLuchadorComponent } from "./components/data-luchador/data-luchador.component";
 
 
 @Component({

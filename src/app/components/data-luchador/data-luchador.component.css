@@ -8,13 +8,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     overflow-y: hidden;
-}
-
-.stats {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+    overflow-x: hidden;
 }
 
 article {
@@ -103,3 +97,20 @@ article:hover img:last-child {
     max-width: 30%;
     font-family: "coda", Helvetica, Arial, sans-serif;
 }
+
+@media (max-width: 768px) {
+    .mensajeLuchador {
+        max-width: 50%;
+    }
+    .sobreMi {
+        flex-direction: column;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .fighter {
+        flex-direction: column;
+ }
+}
+
+

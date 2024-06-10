@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { dataLuchador } from '../../interface/luchador';
+import { dataLuchador } from '../../../interface/luchador';
 import { NgFor } from '@angular/common';
 
 @Component({

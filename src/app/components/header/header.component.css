@@ -60,12 +60,17 @@ h2 {
     .encabezado {
         display: flex;
         flex-direction: column;
+        font-size: small;
     }
 
 
     .titulo {
         max-width: 35%;
         font-size: 25px;
+        font-size: small;
+    }
+    .buscador {
+        width: 50%;
     }
 
 }

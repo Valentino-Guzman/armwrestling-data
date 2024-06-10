@@ -3,8 +3,9 @@
 }
 
 .tabla {
-    font-family: 'coda', Helvetica, Arial, sans-serif;
     text-align: center;
+    font-family: 'coda', Helvetica, Arial, sans-serif;
+
 }
 
 .datos {
@@ -47,11 +48,12 @@ h2 {
 }
 
 .boton {
-    margin: 6px 0;
+    margin: 5px 0;
 }
 
 button {
 
+    font: 900;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #323240;
@@ -64,4 +66,16 @@ button {
 button:hover {
     background: linear-gradient(to left, #2d16167e, #130404);
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .rangoLuchador {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    h2 {
+        align-items: center;
+    }
 }

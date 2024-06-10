@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { NgFor, NgIf } from '@angular/common';
-import { dataLuchador } from '../../interface/luchador';
+import { NgFor } from '@angular/common';
+import { dataLuchador } from '../../../interface/luchador';
 
 @Component({
   selector: 'app-matt',
